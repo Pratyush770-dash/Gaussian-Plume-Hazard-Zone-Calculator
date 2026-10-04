@@ -111,24 +111,21 @@ If a scenario looks serious in this tool, it needs a proper consequence study.
 
 ## Repository structure
 
-gaussian-plume-hazard-calculator/
-├── README.md
-├── requirements.txt
-├── gases.py            # gas database: MW, IDLH, LEL
-├── dispersion.py       # Briggs sigma_y / sigma_z and plume equation
-├── hazard.py           # ppm conversion and hazard distances
-├── plotting.py         # contour plot with IDLH / LEL overlays
-├── main.py             # command line interface
-├── app.py              # Streamlit app
-├── tests/
-│   ├── conftest.py
-│   └── test_plume.py   # 8 pytest checks
-└── examples/
-    ├── plume_NH3_D.png
-    ├── plume_HF_F.png
-    ├── plume_C3H8_B.png
-    ├── plume_C3H8_F.png
-    └── out.csv
+## Repository structure
+
+| Path | Description |
+|---|---|
+| `README.md` | Project overview, usage, validation and limitations |
+| `requirements.txt` | Python packages needed (numpy, matplotlib, pytest, streamlit) |
+| `gases.py` | Gas database: molecular weight, IDLH and LEL |
+| `dispersion.py` | Briggs sigma_y and sigma_z, Gaussian plume equation |
+| `hazard.py` | ppm conversion and hazard distance calculation |
+| `plotting.py` | Contour plot with IDLH and LEL overlays |
+| `main.py` | Command line interface |
+| `app.py` | Streamlit app with interactive sliders |
+| `tests/conftest.py` | Test setup (adds the project folder to the import path) |
+| `tests/test_plume.py` | 8 pytest checks |
+| `examples/` | Example plots (NH3, HF, propane) and sample `out.csv` |
 
 ## Where I'd take it next
 
