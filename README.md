@@ -116,7 +116,6 @@ If a scenario looks serious in this tool, it needs a proper consequence study.
 | Path | Description |
 |---|---|
 | `README.md` | Project overview, usage, validation and limitations |
-| `requirements.txt` | Python packages needed (numpy, matplotlib, pytest, streamlit) |
 | `gases.py` | Gas database: molecular weight, IDLH and LEL |
 | `dispersion.py` | Briggs sigma_y and sigma_z, Gaussian plume equation |
 | `hazard.py` | ppm conversion and hazard distance calculation |
