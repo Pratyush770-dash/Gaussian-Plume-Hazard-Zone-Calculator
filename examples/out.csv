@@ -1,0 +1,2 @@
+gas,Q_gs,u_ms,stability,H_m,terrain,threshold,threshold_ppm,distance_m,max_halfwidth_m,capped
+HF,100.0,2.0,F,0.0,rural,IDLH,30,1208.94,37.34,False
