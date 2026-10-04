@@ -3,7 +3,7 @@ This is a small Python tool I wrote to tackle if a gas line leaks. I gave it the
 
 The idea came from how consequence analysis usually starts. Before anyone sets up a CFD run, you do a quick Gaussian estimate to see whether the scenario is even worth the effort. It's basically a screening tool.
 
-![NH3 plume example](plume_NH3_D.png)
+![NH3 plume example](examples/plume_NH3_D.png)
 
 ## What you get
 
